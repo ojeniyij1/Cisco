@@ -1,0 +1,162 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parentcontainer {
+    background-image: url(images/studio-background-concept-dark-gradient-purple-studio-room-background-product.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+
+
+
+.topbar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.mainrounded {
+    max-width:70%;
+    
+    height:auto;
+    align-self:center;
+    height: 70%;
+    top:10%;
+    position:relative;
+    display:flex;
+    align-content:center;
+    border-radius:25px !important;
+    margin:0 auto;
+}
+
+img {
+    display: flex;
+    max-width: 72px;
+    justify-content: center;
+
+}
+
+.leftSide {
+    flex:0 0 55%;
+    display:flex;
+    align-items:center;
+    background-image: url(images/1418826.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    padding:45px;
+    
+    position:relative;
+}
+
+.leftSide::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,188, 235, 0.5);
+  transition: background .3s linear;
+}
+
+.rightSide {
+    background:white;
+    flex:auto;
+    display: block;
+    position: relative;
+    flex: 0 0 45%;
+    padding: 45px;
+    max-width: 40%;
+    box-sizing: border-box;
+    
+}
+
+.form-inner {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #00bceb;
+    text-align: center;
+    font-family:'Roboto';
+    font-weight: 100;
+    font-size: 1.8em;
+}
+
+input[type=username] {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    margin: 15px;
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+input[type=password] {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    margin: 15px;
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+#fp {
+    color: #00bceb;
+    text-decoration: none;
+    font-size: 11px;
+
+}
+
+.btncontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+    max-width: 60%;
+    margin: 2.5em;
+}
+
+.btncontainer a {
+    justify-content: center;
+    align-content: center;
+}
+
+
+#cabtn {
+    background: #00bceb;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#loginbtn {
+    background: #70b660;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+}
