@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+  }
+  
+  .loginform {
+    display: flex;
+    height: 100vh;
+    position: block;
+   
+  }
+  
+  .leftSide {
+      width: 70vw;
+      display:flex;
+      align-items:center;
+      background: #00bceb;
+      position: relative;
+      background-image: url("images/76595b65162e344624398325569232ae.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.leftSide::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 188, 235, 0.5);
+    transition: background .3s linear;
+  }
+  
+  .rightSide {
+    width: 30vw;
+    background:#FFFFFF;
+   
+  }
+
+
+
+  .logo {
+      margin-bottom: 20px;
+}
+
+#logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100px;
+}
+  
+  .form-inner {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60.34px);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h2 {
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 12.5px;
+    padding: 10px 0px;
+    font-size: 24px;
+  }
+  
+  input[type=password] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 12.5px;
+  }
+  
+  input[type=submit] {
+    border: none;
+    background-color: #00bceb;
+    border-radius: 15px;
+    padding: 10px 30px;
+    color: #FFF;
+    margin: 50px 0px;
+  }
+  
+  input::placeholder {
+    font-size: 18px;
+  }
+  
+  a {
+    color: #00bceb;
+    text-decoration: none;
+  }
+  
+  .footer-top {
+    margin: 40px 40px 60px 40px;
+   
+    text-align: center;
+    
+  }
+  
+  .footer-bottom {
+  
+    margin:7.5px;
+    justify-content: space-between;
+  }
+  
+  .top{
+    margin: 15px;
+  }
+  
+  .top a {
+    padding: 12.5px;
+  }
+  
+  .bottom {
+    text-align: center;
+  }
